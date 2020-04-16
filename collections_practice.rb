@@ -32,5 +32,3 @@ end
 kesha_maker(array)
   array.map { |word| word[2].chr = "$" }
 end
-
-take each word of an element, make index[2] = $
