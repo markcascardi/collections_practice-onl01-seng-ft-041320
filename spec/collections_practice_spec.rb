@@ -15,7 +15,7 @@ describe 'collections practice' do
       expect(sort_array_desc([25, 7, 14])).to eq([25, 14, 7])
     end
   end
-  
+
   # Question 3
   describe '#sort_array_char_count' do
     it 'should return an array in ascending order sorted by the number of characters in the string' do
@@ -29,7 +29,7 @@ describe 'collections practice' do
       expect(swap_elements(["blake", "ashley", "scott"])).to eq(["blake", "scott", "ashley"])
     end
   end
-  
+
   # # Question 5
   # describe '#reverse_array' do
   #   it 'reverse the order of an array of integers' do
