@@ -37,7 +37,7 @@ end
 
 def add_s(array)
   array.each do |word|
-    word[-1] = "s" unless word[-1] == "s"
+    word[last] = "s" unless word[last] == "s"
     array
   end
 end
