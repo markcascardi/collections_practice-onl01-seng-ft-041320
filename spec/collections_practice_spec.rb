@@ -44,13 +44,13 @@ describe 'collections practice' do
       expect(kesha_maker(["blake", "ashley", "scott"])).to eq(["bl$ke", "as$ley", "sc$tt"])
     end
   end
-  #
-  # # Question 7
-  # describe '#find_a' do
-  #   it 'find all words that begin with "a" in the following array' do
-  #     expect(find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ])).to eq(["apple", "avis", "arlo", "ascot"])
-  #   end
-  # end
+  
+  # Question 7
+  describe '#find_a' do
+    it 'find all words that begin with "a" in the following array' do
+      expect(find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ])).to eq(["apple", "avis", "arlo", "ascot"])
+    end
+  end
   #
   # # Question 8
   # describe '#sum_array' do
