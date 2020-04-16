@@ -6,4 +6,4 @@ def sort_array_asc(integers)
 end
 
 
-sort_array_asc(integers)
+puts sort_array_asc(integers)
