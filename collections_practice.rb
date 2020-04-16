@@ -8,5 +8,5 @@ def sort_array_desc(integers)
 end
 
 def sort_array_char_count(array)
-  array.map { |word| word.length.sort }
+  array.map { |word| word.length }
 end
