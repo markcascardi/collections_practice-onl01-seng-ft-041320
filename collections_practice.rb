@@ -31,4 +31,5 @@ def kesha_maker(array)
 kesha_maker(array)
   array.map do |word| word[2].chr = "$"
   end
+  array
 end
