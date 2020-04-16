@@ -1,6 +1,7 @@
-## Question 1: `#sort_array_asc`
 
- returns a copy of the array with the integers in ascending order.
-def sort_array_asc(integers)
+def sort_array_asc(integers = [25, 7, 1])
   integers.sort
 end
+
+
+sort_array_asc(integers)
