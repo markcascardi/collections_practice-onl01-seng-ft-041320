@@ -9,13 +9,13 @@ describe 'collections practice' do
     end
   end
 
-  # # Question 2
-  # describe '#sort_array_desc' do
-  #   it 'should return an array sorted in descending order' do
-  #     expect(sort_array_desc([25, 7, 14])).to eq([25, 14, 7])
-  #   end
-  # end
-  #
+  # Question 2
+  describe '#sort_array_desc' do
+    it 'should return an array sorted in descending order' do
+      expect(sort_array_desc([25, 7, 14])).to eq([25, 14, 7])
+    end
+  end
+  
   # # Question 3
   # describe '#sort_array_char_count' do
   #   it 'should return an array in ascending order sorted by the number of characters in the string' do
