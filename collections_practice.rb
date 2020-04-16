@@ -23,11 +23,14 @@ end
 def kesha_maker(array)
   i = 0
 
-   while i < array.length
-     yield(array[i])
-     i++
-   end
+  while i < array.length
+    yield(array)
+    i += 1
+  end
+
+  array
 end
 
 kesha_maker(array)
-  array.map { |word| word[2].chr = "$" }
+  array.map do |word| word[2].chr = "$"
+  end
