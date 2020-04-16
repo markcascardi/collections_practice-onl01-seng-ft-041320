@@ -34,3 +34,10 @@ end
 def sum_array(array)
   array.inject { |sum, n| sum + n }
 end
+
+def add_s(array)
+  array.each do |word|
+    word[-1] = "s" unless word[-1] == "s"
+    array
+  end
+end
