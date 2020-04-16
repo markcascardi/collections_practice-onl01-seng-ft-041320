@@ -31,4 +31,3 @@ end
 
 kesha_maker(array)
   array.map { |word| word[2].chr = "$" }
-end
