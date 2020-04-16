@@ -22,7 +22,7 @@ describe 'collections practice' do
       expect(sort_array_char_count(["dogs", "cat", "Horses"])).to eq(["cat", "dogs", "Horses"])
     end
   end
-  
+
   # # Question 4
   # describe '#swap_elements' do
   #   it 'swap the second and third elements of an array' do
