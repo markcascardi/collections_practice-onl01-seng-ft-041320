@@ -26,3 +26,7 @@ def kesha_maker(array)
     array
   end
 end
+
+def find_a(array)
+  array.select { |word| word.include?("a") }
+end
